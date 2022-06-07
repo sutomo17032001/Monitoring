@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,300);
+body {
+		background-color:#f8f8ff;
+}
+
+.form-container {
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.color-border-focus .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,255, .10);
+}
+
+.container-cuti {
+    font-family: "Roboto", arial, sans-serif;
+    color: #fefefe;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    background-image: -moz-linear-gradient( -90deg, rgb(54, 185, 204) 0%, rgb(38, 133, 147) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(54, 185, 204) 0%, rgb(38, 133, 147) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(54, 185, 204) 0%, rgb(38, 133, 147) 100%);
+    width: 45%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.loading-dock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
